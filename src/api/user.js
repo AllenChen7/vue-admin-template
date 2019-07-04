@@ -8,6 +8,10 @@ export function login(data) {
   })
 }
 
+/**
+ * 测试
+ * @param token
+ */
 export function getInfo(token) {
   return request({
     url: '/user/info',
