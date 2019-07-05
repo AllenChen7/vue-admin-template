@@ -20,6 +20,9 @@ export function getInfo(token) {
   })
 }
 
+/**
+ * 退出
+ */
 export function logout() {
   return request({
     url: '/user/logout',
